@@ -1,0 +1,177 @@
+.first img{
+    width: 100px !important;
+    position: absolute;
+}
+.second img{
+    width: 100px !important;
+    position: absolute;
+}
+.third img{
+    width: 100px !important;
+    position: absolute;
+}
+.fourth img{
+    width: 100px !important;
+    position: absolute;
+}
+
+.flat img{
+    width: 350px;
+    margin-top: 50px;
+}
+
+.first{
+    position: relative;
+    animation-name: first;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes first{
+    0%{
+        left: 0;
+        top: -120px;
+    }
+
+    25%{
+        left: 930px;
+        top: -120px;
+    }
+
+    50%{
+        left: 930px;
+        top: 400px;
+    }
+
+    75%{
+        left: 0;
+        top: 170px;
+    }
+
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+
+.second{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    animation-name: second;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes second{
+    0%{
+        right: 0;
+        top: -120px;
+    }
+
+    25%{
+        right: 930px;
+        top: -120px;
+    }
+
+    50%{
+        right: 980px;
+        top: 170px;
+    }
+
+    75%{
+        right: 0;
+        top: 170px;
+    }
+
+    100%{
+        right: 0;
+        top: 0;
+    }
+}
+
+.third{
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 89%;
+    position: relative;
+    animation-name: third;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes third{
+    0%{
+        right: 0;
+        bottom: -120px;
+    }
+
+    25%{
+        right: 930px;
+        bottom: -120px;
+    }
+
+    50%{
+        right: 960px;
+        bottom: 400px;
+    }
+
+    75%{
+        right: 0;
+        bottom: 400px;
+    }
+
+    100%{
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.fourth{
+    justify-content: flex-start;
+    position: relative;
+    animation-name: forth;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: inherit;
+}
+
+
+@keyframes forth{
+    0%{
+        left: 0;
+        bottom: 40px;
+    }
+
+    25%{
+        left: 870px;
+        bottom: 40px;
+    }
+
+    50%{
+        left: 880px;
+        bottom: 450px;
+    }
+
+    75%{
+        left: 0;
+        bottom: 450px;
+    }
+
+    100%{
+        left: 0;
+        bottom: 40px;
+    }
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Naruto;
+    src: url(./njnaruto.ttf);
+}
+
+@font-face {
+    font-family: Beyblade;
+    src: url(./Beyblade\ Metal\ Fight\ Font.ttf);
+}
+
+@font-face {
+    font-family: Pokemon;
+    src: url(./Pokemon\ Solid.ttf);
+}
+
+@font-face {
+    font-family: all-time;
+    src: url(./kaiserzeitgotisch.regular.woff);
+}
+
+@font-face {
+    font-family: dinosour;
+    src: url(./Dinosaurs.ttf);
+}

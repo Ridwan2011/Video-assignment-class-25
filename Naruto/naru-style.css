@@ -1,0 +1,81 @@
+img{
+    width: 300px;
+}
+
+.first{
+    position: relative;
+    animation-name: naru-first;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes naru-first{
+    0%{
+        left: 0;
+        top: 0;
+    }
+
+    25%{
+        left: 870px;
+        top: 0;
+    }
+
+    50%{
+        left: 870px;
+        top: 400px;
+    }
+
+    75%{
+        left: 0;
+        top: 400px;
+    }
+
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+
+.third{
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 89%;
+    position: relative;
+    animation-name: naru-third;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes naru-third{
+    0%{
+        right: 0;
+        bottom: 0;
+    }
+
+    25%{
+        right: 850px;
+        bottom: 0;
+    }
+
+    50%{
+        right: 850px;
+        bottom: 350px;
+    }
+
+    75%{
+        right: 0;
+        bottom: 350px;
+    }
+
+    100%{
+        right: 0;
+        bottom: 0;
+    }
+}
